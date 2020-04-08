@@ -1,5 +1,5 @@
 **Banking**
-This very simple application maintains an array of client swith their bank accounts and supports two functionalities : a method to transfer money from one bank account to another as well as a verify method tocheckthatallaccountsareinaconsistentstate.Asdescribedbelowyouwilldevelopthreeextensionsoftheoriginalprogram.Thefinalversionoftheprogramshouldbecapable of executing all different transfer functions.
+-This very simple application maintains an array of client swith their bank accounts and supports two functionalities : a method to transfer money from one bank account to another as well as a verify method tocheckthatallaccountsareinaconsistentstate.Asdescribedbelowyouwilldevelopthreeextensionsoftheoriginalprogram.Thefinalversionoftheprogramshouldbecapable of executing all different transfer functions.
 
 1.Writeamultithreadedversionoftheprogram.Addatransfer_multithread()functionthatisexecutedasanewthread.Thenumberofthreadsexecutingtransfer_multithread()needs to be configurable.
 2.Writeanewtransfer_atomic()functionthatutilizesatomicstoperformthetransfer.Makesure that the verify function succeeds after running the concurrent transfers.
